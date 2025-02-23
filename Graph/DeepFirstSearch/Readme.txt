@@ -18,10 +18,10 @@ Các node được xét lần lượt (nếu tới các node đã xét) thì b�
 như thế cho đến khi xét hết các node trong đồ thị.
 
 + Để thực hiện hóa mục tiêu đã nêu ra của DFS ta có thể sử dụng stack.
-Các node(chưa được xét được đánh dấu = 0) được chỉ bởi node đầu tiên 
-ta có thể thêm vào stack.Đánh dấu rằng các node đó đang được ở trong stack (gán = -1) 
+Các node(chưa được xét được đánh dấu = -1) được chỉ bởi node đầu tiên 
+ta có thể thêm vào stack.Đánh dấu rằng các node đó đang được ở trong stack (gán = 0) 
 và sẽ không xét đến nó nữa cho đến khi node trong stack được pop ra từ stack và 
-được đánh dấu là node đã được xét cho được đánh dấu là 1.
+được đánh dấu là node đã được xét và được đánh dấu là 1.
 
 Lưu ý ta chỉ xét đến các node đã được đánh dấu là 0;
 
