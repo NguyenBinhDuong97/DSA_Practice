@@ -39,6 +39,24 @@ Trước tiên ta tìm giá trị ở chính giữa của r và l
 		return -1;
 	}
 
++ Tìm kiếm số xuất hiện đầu tiên hoặc cuối cùng trong mảng 
+(hoặc có thể hiểu là tìm một giá trị cuối cùng hay đầu tiên thỏa mãn một biểu thức)
+
+ví dụ code:
+
+int binarySearch (vector<int> arr, int l, int r, int val) {
+	while(l <= r) {
+		int mid = (l+r)/2;
+		if(arr[mid] <= val) {
+			l = mid + 1;
+		}
+		else {
+			r = mid - 1;
+		}
+	}
+	return r;
+}
+
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
 C2: Ngoài ra có thêm một cách nữa để biểu diễn binary search.
