@@ -75,12 +75,8 @@ S has n+1 elements if follow above formular
 
 D has n-1 elements if follow above formular
 
-<<<<<<< HEAD
-=======
-S(A(0), D(A)) = A
-
 D(S(c,A)) =  A
->>>>>>> ca80640 (Adding PrefixSum and DifferenceArray)
+S(A(0), D(A)) = A
 ===============================================
 
 More about prefix sum, please refer to this link:
