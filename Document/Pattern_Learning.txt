@@ -1,0 +1,43 @@
+Để thuần thục Cấu trúc Dữ liệu và Giải thuật (DSA), bạn nên học theo 15 coding patterns (mẫu giải quyết vấn đề) phổ biến thay vì giải hàng nghìn bài tập ngẫu nhiên. [1, 2] 
+Dưới đây là các pattern quan trọng nhất được tổng hợp từ kinh nghiệm luyện phỏng vấn tại các công ty công nghệ lớn (như [Grokking the Coding Interview](https://www.educative.io/courses/grokking-coding-interview)): [3, 4] 
+## Các Pattern Nền Tảng (Arrays & Strings)
+
+* Prefix Sum: Tính tổng các phần tử trong một khoảng (subarray) trong thời gian O(1) bằng cách dùng mảng cộng dồn. Dấu hiệu: Đề bài yêu cầu truy vấn tổng liên tục nhiều lần. [5] 
+* Two Pointers: Dùng 2 con trỏ di chuyển từ 2 đầu mảng vào giữa hoặc cùng chiều. Dấu hiệu: Mảng đã được sắp xếp hoặc tìm cặp số thỏa mãn điều kiện. [5, 6] 
+* Sliding Window: Tạo một "cửa sổ" trượt qua mảng/chuỗi để tối ưu độ phức tạp từ O(n²) về O(n). Dấu hiệu: Tìm subarray/substring liên tục có độ dài K hoặc thỏa mãn điều kiện dài/ngắn nhất. [7] 
+* Fast & Slow Pointers: Hai con trỏ chạy với tốc độ khác nhau (rùa và thỏ). Dấu hiệu: Phát hiện chu trình (cycle) trong Linked List hoặc tìm điểm giữa của danh sách. [5, 8] 
+
+## Các Pattern Về Khoảng & Sắp Xếp
+
+* Merge Intervals: Xử lý các khoảng thời gian bị chồng chéo (overlapping intervals). Dấu hiệu: Bài toán lịch họp (meeting rooms), đặt lịch, gộp thời gian. [8] 
+* Cyclic Sort: Sắp xếp mảng số nằm trong một phạm vi xác định (ví dụ từ 1 đến N). Dấu hiệu: Tìm số bị thiếu (missing number) hoặc số bị lặp lại. [8] 
+* In-place Reversal of a LinkedList: Đảo ngược Linked List mà không dùng thêm bộ nhớ phụ. Dấu hiệu: Yêu cầu đảo ngược toàn bộ hoặc một phần Linked List theo nhóm K phần tử. [8] 
+
+## Các Pattern Về Cây & Đồ Thị (Trees & Graphs)
+
+* Tree Breadth-First Search (BFS): Duyệt cây theo từng tầng (level-order). Dấu hiệu: Tìm trung bình cộng mỗi tầng, tìm độ sâu tối thiểu của cây.
+* Tree Depth-First Search (DFS): Duyệt cây đi sâu xuống lá rồi quay lui. Dấu hiệu: Tìm đường đi từ gốc tới lá thỏa mãn tổng giá trị cho trước.
+* Matrix Traversal (Island / BFS / DFS): Duyệt ma trận 2D như một đồ thị. Dấu hiệu: Đếm số lượng vùng đất (islands), tìm đường đi trong mê cung.
+* Topological Sort: Sắp xếp thứ tự phụ thuộc (dependency ordering). Dấu hiệu: Bài toán môn học tiên quyết (course schedule), thứ tự xây dựng dự án. [1, 8, 9, 10] 
+
+## Các Pattern Nâng Cao
+
+* Modified Binary Search: Biến thể của chặt nhị phân. Dấu hiệu: Tìm kiếm trên mảng đã xoay vòng (rotated sorted array) hoặc tìm kiếm khoảng giá trị (binary search on answer).
+* Top K Elements / Two Heaps: Dùng Heap (Priority Queue) để quản lý các phần tử lớn/nhỏ nhất. Dấu hiệu: Tìm K phần tử lớn nhất/phổ biến nhất hoặc tìm trung vị dòng dữ liệu (running median).
+* Backtracking: Thử tất cả các trường hợp và quay lui khi gặp nhánh sai. Dấu hiệu: Tìm tất cả các tập con (subsets), hoán vị (permutations), tổ hợp (combinations).
+* Dynamic Programming (DP): Chia nhỏ bài toán lớn thành các bài toán con gối nhau và lưu trữ trạng thái. Dấu hiệu: Bài toán tối ưu hóa, đếm số cách thực hiện, bài toán cái túi (Knapsack). [3, 8, 9, 10, 11] 
+
+· 1970 M01 1
+Nếu bạn muốn bắt đầu ôn luyện, bạn có muốn tôi lên lộ trình chi tiết theo từng tuần hay cho bài tập mẫu kèm lời giải cho pattern Sliding Window và Two Pointers đầu tiên không?
+
+[1] [https://www.facebook.com](https://www.facebook.com/FSEcourse/posts/pattern-recognition-trong-dsa-quan-tr%E1%BB%8Dng-h%C6%A1n-b%E1%BA%A1n-ngh%C4%A9nhi%E1%BB%81u-ng%C6%B0%E1%BB%9Di-h%E1%BB%8Dc-dsa-b%E1%BA%B1ng-c%C3%A1/949589397663151/)
+[2] [https://github.com](https://github.com/tiingweii-shii/Grokking-Coding-Interview-Patterns)
+[3] [https://www.educative.io](https://www.educative.io/courses/grokking-coding-interview)
+[4] [https://leetcode.com](https://leetcode.com/discuss/study-guide/5908573/Important-DSA-Patterns-100-to-Crack-Coding-Interviews/)
+[5] [https://dev.to](https://dev.to/devcorner/top-15-dsa-patterns-and-questions-1dok)
+[6] [https://github.com](https://github.com/dipjul/Grokking-the-Coding-Interview-Patterns-for-Coding-Questions/blob/master/revision/Revision.md)
+[7] [https://leetcode.com](https://leetcode.com/discuss/post/7347258/15-essential-dsa-patterns-for-tech-inter-nxem/)
+[8] [https://medium.com](https://medium.com/data-science-collective/15-dsa-patterns-that-cover-80-of-medium-level-coding-interviews-0446c59b42ff)
+[9] [https://www.linkedin.com](https://www.linkedin.com/pulse/20-coding-patterns-master-dsa-data-structures-algorithms-ankit-malik)
+[10] [https://www.linkedin.com](https://www.linkedin.com/posts/algomaster-io_20-must-know-dsa-patterns-for-coding-interviews-activity-7459921181853388800--YQA)
+[11] [https://www.threads.com](https://www.threads.com/@fsecourse/post/DYUyAi6E7yo/3-patterns-dsa-xu%E1%BA%A5t-hi%E1%BB%87n-nhi%E1%BB%81u-nh%E1%BA%A5t-trong-coding-interview-t%E1%BA%A1i-big-techr%E1%BA%A5t-nhi%E1%BB%81u/)
