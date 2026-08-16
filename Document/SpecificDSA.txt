@@ -1,0 +1,73 @@
+Để thuần thục DSA theo tư duy giải quyết vấn đề, bên cạnh 15 pattern nền tảng ban đầu, đây là toàn bộ các Coding Patterns chuyên biệt và độc lập liên quan đến các cấu trúc dữ liệu cụ thể (Stack, Queue, Graph, Heap, Bit,...) mà bạn nhất định phải gặp khi giải các bài toán trung bình (Medium) và khó (Hard):
+------------------------------
+## 🛠️ Nhóm 1: Các Pattern Chuyên Biệt Với Stack & Queue
+Các pattern này biến Stack và Queue từ các cấu trúc dữ liệu lưu trữ đơn thuần thành các bộ lọc dữ liệu cực kỳ mạnh mẽ:
+
+* Monotonic Stack (Ngăn xếp đơn điệu): Stack luôn duy trì các phần tử theo thứ tự tăng dần hoặc giảm dần. Khi thêm phần tử mới phá vỡ thứ tự, các phần tử cũ sẽ bị loại bỏ.
+* Dấu hiệu: Tìm phần tử lớn hơn/nhỏ hơn gần nhất ở bên trái hoặc bên phải (Next Greater/Smaller Element).
+   * Bài toán kinh điển: Daily Temperatures, Next Greater Element, Largest Rectangle in Histogram.
+* Monotonic Queue (Hàng đợi đơn điệu): Tương tự như Monotonic Stack nhưng cho phép loại bỏ phần tử ở cả 2 đầu (thường dùng Deque - Double-ended Queue).
+* Dấu hiệu: Tìm phần tử lớn nhất hoặc nhỏ nhất trong một cửa sổ trượt liên tục (Sliding Window).
+   * Bài toán kinh điển: Sliding Window Maximum.
+* Two Stacks (Dùng 2 Stack tương hỗ): Sử dụng một Stack để lưu trữ dữ liệu chính và một Stack phụ để lưu trạng thái tối ưu (như Min/Max) hoặc đảo ngược dữ liệu.
+* Dấu hiệu: Thiết kế cấu trúc dữ liệu tối ưu thời gian O(1) hoặc xử lý biểu thức toán học.
+   * Bài toán kinh điển: Min Stack, Implement Queue using Stacks, Basic Calculator.
+
+------------------------------
+## 🌳 Nhóm 2: Các Pattern Chuyên Biệt Với Đồ Thị & Cây (Advanced Graphs & Trees)
+Khi đồ thị và cây không còn dừng lại ở việc duyệt BFS/DFS cơ bản, bạn cần các pattern cấu trúc phức tạp hơn:
+
+* Union-Find / Disjoint Set Union (DSU): Quản lý một tập hợp các phần tử được chia thành các nhóm không giao nhau. Hỗ trợ 2 thao tác: Hợp nhất 2 nhóm (Union) và Tìm nhóm của một phần tử (Find).
+* Dấu hiệu: Kiểm tra đồ thị có chu trình hay không, đếm số lượng thành phần liên thông động, hoặc bài toán kết nối mạng lưới mạng.
+   * Bài toán kinh điển: Number of Provinces, Redundant Connection, Graph Valid Tree.
+* Trie / Prefix Tree (Cây tiền tố): Cây chuyên dụng để lưu trữ và tìm kiếm chuỗi ký tự (strings). Mỗi nút đại diện cho một ký tự.
+* Dấu hiệu: Bài toán tìm kiếm từ có chung tiền tố, gợi ý từ tự động (Autocomplete), hoặc kiểm tra sự tồn tại của từ trong từ điển.
+   * Bài toán kinh điển: Implement Trie (Prefix Tree), Word Search II.
+* Segment Tree / Fenwick Tree (Binary Indexed Tree): Cây quản lý mảng dữ liệu cho phép vừa cập nhật phần tử vừa truy vấn (tổng, min, max) một khoảng trong thời gian O(log N).
+* Dấu hiệu: Mảng liên tục bị thay đổi giá trị và bạn cần tính tổng hoặc tìm giá trị lớn nhất trong một đoạn liên tục một cách nhanh chóng.
+   * Bài toán kinh điển: Range Sum Query - Mutable.
+
+------------------------------
+## 🧮 Nhóm 3: Các Pattern Chuyên Biệt Với Số Học & Bit (Math & Bit Manipulation)
+Xử lý dữ liệu ở cấp độ thấp nhất để đạt hiệu năng tối đa:
+
+* Bit Manipulation (Toán tử Bitwise): Sử dụng các phép toán AND, OR, XOR, NOT, dịch bit <<, >> để tính toán mà không cần vòng lặp.
+* Dấu hiệu: Tìm số xuất hiện lẻ lần, đếm số bit 1, hoặc kiểm tra một số có phải lũy thừa của 2 hay không.
+   * Bài toán kinh điển: Single Number, Counting Bits, Number of 1 Bits.
+* Sieve of Eratosthenes (Sàng Eratosthenes): Thuật toán tìm tất cả các số nguyên tố nhỏ hơn hoặc bằng số N cho trước trong thời gian O(N log log N).
+* Dấu hiệu: Đề bài yêu cầu xử lý, đếm hoặc kiểm tra hàng loạt số nguyên tố.
+   * Bài toán kinh điển: Count Primes.
+
+------------------------------
+## ⛓️ Nhóm 4: Các Pattern Chuyên Biệt Tìm Đường Đi Ngắn Nhất (Shortest Path)
+Đây là các thuật toán đồ thị nâng cao nhưng bản chất là các pattern cố định, chỉ cần thay đổi cấu trúc dữ liệu lưu trữ:
+
+* Dijkstra's Algorithm (Dùng Min-Heap): Tìm đường đi ngắn nhất từ 1 đỉnh đến mọi đỉnh khác trên đồ thị có trọng số không âm.
+* Dấu hiệu: Tìm chi phí nhỏ nhất, thời gian ngắn nhất để di chuyển giữa các nút mạng/thành phố.
+   * Bài toán kinh điển: Network Delay Time, Path With Minimum Effort.
+* Bellman-Ford: Tìm đường đi ngắn nhất từ 1 đỉnh nhưng chấp nhận đồ thị có trọng số âm và giúp phát hiện chu trình âm.
+* Bài toán kinh điển: Cheapest Flights Within K Stops.
+* Floyd-Warshall: Tìm đường đi ngắn nhất giữa mọi cặp đỉnh (All-Pairs Shortest Path) trong đồ thị bằng phương pháp Quy hoạch động.
+* Bài toán kinh điển: Find the City With the Smallest Number of Neighbors at a Threshold Distance.
+
+------------------------------
+## 🎒 Nhóm 5: Các Pattern Con Của Quy Hoạch Động (DP Sub-patterns)
+Quy hoạch động rất rộng, nhưng khi đi thi phỏng vấn, nó thường rơi vào 5 pattern cốt lõi này:
+
+* 0/1 Knapsack (Bài toán cái túi): Mỗi đồ vật chỉ được chọn 1 lần hoặc không chọn. (Bài toán: Partition Equal Subset Sum).
+* Unbounded Knapsack: Mỗi đồ vật được chọn vô số lần. (Bài toán: Coin Change, Word Break).
+* Fibonacci Numbers: Trạng thái hiện tại chỉ phụ thuộc vào 1 hoặc 2 trạng thái ngay trước đó. (Bài toán: Climbing Stairs, House Robber).
+* Longest Common Subsequence (LCS): So sánh hai chuỗi hoặc hai mảng với nhau. (Bài toán: Longest Common Subsequence, Edit Distance).
+* Palindromic Subsequence: Xử lý các chuỗi đối xứng. (Bài toán: Longest Palindromic Substring).
+
+------------------------------
+## 🎯 Tóm lại: Bạn nên bắt đầu học từ đâu?
+Đừng hoảng loạn trước số lượng pattern này! Hãy chia lộ trình ra để "chinh phục" theo thứ tự ưu tiên sau:
+
+   1. Tuần 1-2 (Dễ ăn điểm nhất): Học thật chắc Monotonic Stack và Bit Manipulation.
+   2. Tuần 3-4 (Nền tảng Đồ thị nâng cao): Học Union-Find (DSU) và Trie.
+   3. Tuần 5-6 (Phỏng vấn Big Tech): Học thuật toán Dijkstra và 2 dạng DP cơ bản (Fibonacci, Coin Change).
+   4. Khi đã thành thạo: Mới đụng tới Segment Tree hoặc Bellman-Ford vì các dạng này rất hiếm gặp ở mức độ phỏng vấn thông thường.
+
+Bạn có muốn tôi chọn ra 1 bài toán kinh điển nhất của Monotonic Stack để giải thích chi tiết cơ chế hoạt động bằng hình ảnh/từng bước chạy của code không?
+

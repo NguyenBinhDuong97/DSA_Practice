@@ -1,0 +1,37 @@
+Dưới đây là tổng hợp các bài tập LeetCode kinh điển nhất về Stack, được chia theo 3 dạng Pattern chuyên biệt độc lập đã đề cập ở trên. Bộ bài tập này đi từ dễ đến khó, giúp bạn xây dựng tư duy "khi nào nên dùng Stack" một cách bài bản nhất.
+------------------------------
+## 🎯 Dạng 1: Khớp Chuỗi & Xử Lý Biểu Thức (Matching & Parsing)
+Dấu hiệu: Đề bài yêu cầu kiểm tra tính hợp lệ của các ký tự mở/đóng, hoặc xử lý các phép toán/chuỗi theo thứ tự ưu tiên (cái gì vào sau cùng thì phải xử lý trước).
+
+* 🟩 20. Valid Parentheses (Easy): Bài toán vỡ lòng về Stack. Kiểm tra xem các dấu ngoặc (), [], {} có đóng mở đúng thứ tự hay không.
+* 🟨 150. Evaluate Reverse Polish Notation (Medium): Tính giá trị của biểu thức toán học dạng hậu tố (ví dụ: ["2", "1", "+", "3", "*"] tương đương (2 + 1) * 3). Stack dùng để lưu các số và lôi ra tính toán khi gặp toán tử.
+* 🟨 394. Decode String (Medium): Giải mã chuỗi bị nén theo định dạng 3[a]2[bc] thành aaabcbc. Bạn cần dùng Stack để lưu lại số lần lặp và chuỗi tạm thời trước đó.
+* 🟥 224. Basic Calculator (Hard): Xây dựng trình máy tính xử lý chuỗi toán học chứa số, các dấu +, -, (, ). Stack dùng để lưu dấu và kết quả tạm thời khi gặp dấu ngoặc.
+
+------------------------------
+## 📈 Dạng 2: Stack Đơn Điệu (Monotonic Stack) - Quan Trọng Nhất ⭐
+Dấu hiệu: Cần tìm phần tử lớn hơn hoặc nhỏ hơn gần nhất ở bên trái hoặc bên phải của phần tử hiện tại. Duy trì Stack tăng dần hoặc giảm dần để đạt độ phức tạp O(N) thay vì O(N²).
+
+* 🟨 496. Next Greater Element I (Easy/Medium): Tìm phần tử lớn hơn tiếp theo nằm bên phải của từng số trong mảng.
+* 🟨 739. Daily Temperatures (Medium): Cho danh sách nhiệt độ hàng ngày, tính xem phải đợi bao nhiêu ngày nữa thì mới gặp một ngày ấm hơn.
+* 🟨 901. Online Stock Span (Medium): Thiết kế cấu trúc dữ liệu tính khoảng giá chứng khoán (số ngày liên tiếp trước đó có giá nhỏ hơn hoặc bằng giá hôm nay).
+* 🟥 84. Largest Rectangle in Histogram (Hard): Tìm hình chữ nhật có diện tích lớn nhất được tạo bởi các cột biểu đồ. Bài này áp dụng Monotonic Stack cực kỳ đỉnh cao.
+* 🟥 42. Trapping Rain Water (Hard): Tính lượng nước mưa bị giữ lại giữa các cột. Bài này có thể giải bằng Two Pointers hoặc Monotonic Stack (giảm dần) để tìm các "hố" giữ nước.
+
+------------------------------
+## ⚙️ Dạng 3: Thiết Kế Cấu Trúc Dữ Liệu (Design Problems)
+Dấu hiệu: Yêu cầu tự cài đặt một cấu trúc dữ liệu mới bằng cách tối ưu hóa Stack hoặc dùng Stack để mô phỏng cấu trúc dữ liệu khác.
+
+* 🟩 155. Min Stack (Medium - nhưng tần suất hỏi rất cao): Thiết kế một Stack ngoài các tính năng push, pop, top thông thường, còn phải lấy được giá trị nhỏ nhất (getMin) hiện tại trong Stack với thời gian O(1).
+* 🟩 232. Implement Queue using Stacks (Easy): Sử dụng 2 Stack (Vào sau - Ra trước) để mô phỏng lại cơ chế hoạt động của một Queue (Vào trước - Ra trước).
+
+------------------------------
+## 💡 Gợi ý lộ trình luyện tập cho bạn:
+Để không bị ngợp, bạn hãy cày nát 3 bài toán cốt lõi này theo đúng thứ tự:
+
+   1. Bài 20 (Valid Parentheses): Để hiểu cách push và pop hoạt động khi khớp cặp dữ liệu.
+   2. Bài 155 (Min Stack): Để hiểu cách dùng Stack phụ lưu trữ trạng thái.
+   3. Bài 739 (Daily Temperatures): Để hiểu bản chất của Monotonic Stack - pattern hack não nhưng hay gặp nhất lúc phỏng vấn.
+
+Nếu bạn muốn, tôi có thể viết code mẫu bằng ngôn ngữ bạn đang học (Java, C++, Python,...) và giải thích từng bước chạy của bài 739. Daily Temperatures để bạn thấy sức mạnh của Monotonic Stack. Bạn dùng ngôn ngữ nào?
+
