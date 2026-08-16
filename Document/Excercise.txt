@@ -1,0 +1,465 @@
+Comprehensive exercise
+
+https://leetcode.com/problems/find-the-most-competitive-subsequence/
+https://leetcode.com/problems/find-the-winner-of-the-circular-game/
+https://leetcode.com/problems/top-k-frequent-words/
+
+https://leetcode.com/problems/maximum-good-people-based-on-statements/description/
+
+https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/description/
+
+https://leetcode.com/problems/maximize-score-after-n-operations/description/
+
+https://leetcode.com/problems/open-the-lock
+
+https://leetcode.com/problems/number-of-closed-islands/
+
+https://leetcode.com/problems/minesweeper
+
+https://leetcode.com/problems/last-day-where-you-can-still-cross/
+
+https://leetcode.com/problems/latest-time-by-replacing-hidden-digits/description/
+
+https://leetcode.com/problems/distribute-money-to-maximum-children/description/
+
+https://leetcode.com/problems/minimum-hours-of-training-to-win-a-competition/description/
+
+https://leetcode.com/problems/valid-triangle-number/description/
+
+https://leetcode.com/problems/koko-eating-bananas/description/
+
+https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/description/
+
+Minimize the Maximum Difference of Pairs
+
+Find Peak Element
+
+Can Place Flowers
+
+Rabbits in Forest
+
+Dota2 Senate
+
+Earliest Second to Mark Indices I
+
+https://leetcode.com/problems/single-number/
+
+https://leetcode.com/problems/reverse-bits/description/
+
+https://leetcode.com/problems/number-of-1-bits/description/
+
+https://leetcode.com/problems/power-of-two/description/
+
+https://codeforces.com/problemset/problem/579/A
+
+https://codeforces.com/problemset/problem/467/B
+
+https://codeforces.com/problemset/problem/1527/A
+
+https://www.hackerrank.com/challenges/cipher/problem
+
+https://www.hackerrank.com/challenges/winning-lottery-ticket/problem
+
+https://www.hackerrank.com/challenges/encryption/problem
+
+
+
+   Stacks
+1    https://www.geeksforgeeks.org/next-greater-element/
+2    https://leetcode.com/problems/next-greater-element-ii/
+3    https://leetcode.com/problems/daily-temperatures/
+4    https://www.geeksforgeeks.org/find-maximum-difference-between-nearest-left-and-right-smaller-elements/
+5    https://www.geeksforgeeks.org/the-stock-span-problem/
+6    https://leetcode.com/problems/largest-rectangle-in-histogram/
+7    https://leetcode.com/problems/maximal-rectangle/
+8    https://leetcode.com/problems/valid-parentheses/
+9    https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/
+10    https://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/
+11    https://leetcode.com/problems/decode-string/
+12    https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/
+13    https://www.geeksforgeeks.org/print-bracket-number/
+14    https://leetcode.com/problems/asteroid-collision/
+15    https://leetcode.com/problems/backspace-string-compare/
+16    https://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/
+17    https://leetcode.com/problems/score-of-parentheses/
+18    https://leetcode.com/problems/remove-k-digits/
+19    https://leetcode.com/problems/car-fleet/
+20    https://www.geeksforgeeks.org/first-negative-integer-every-window-size-k/
+21    https://www.codechef.com/DEC19A/problems/BINADD
+22    https://www.geeksforgeeks.org/maximum-sum-of-smallest-and-second-smallest-in-an-array/
+23    https://www.geeksforgeeks.org/maximum-sum-of-smallest-and-second-smallest-in-an-array/
+24    https://leetcode.com/problems/min-stack/
+25    https://www.geeksforgeeks.org/efficiently-implement-k-stacks-single-array/
+26    https://leetcode.com/problems/validate-stack-sequences/
+27    https://www.geeksforgeeks.org/reversing-first-k-elements-queue/
+28    https://www.geeksforgeeks.org/find-the-largest-pair-sum-in-an-unsorted-array/
+    
+    Linked Lists
+    
+1    https://leetcode.com/problems/reverse-linked-list/
+2    https://www.geeksforgeeks.org/reverse-a-list-in-groups-of-given-size/
+3    https://www.geeksforgeeks.org/detect-loop-in-a-linked-list/
+4    https://www.geeksforgeeks.org/merge-a-linked-list-into-another-linked-list-at-alternate-positions/
+5    https://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/
+6    https://www.geeksforgeeks.org/find-modular-node-linked-list/
+7    https://www.geeksforgeeks.org/remove-duplicates-from-a-sorted-linked-list/
+8    https://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/
+9    https://www.geeksforgeeks.org/nth-node-from-the-end-of-a-linked-list/
+10    https://leetcode.com/problems/lru-cache/
+
+    Binary Tree
+    
+1    https://leetcode.com/problems/binary-tree-inorder-traversal/
+2    https://leetcode.com/problems/binary-tree-preorder-traversal/
+3    https://leetcode.com/problems/binary-tree-postorder-traversal/
+4    https://www.geeksforgeeks.org/print-ancestors-of-a-given-node-in-binary-tree/
+5    https://leetcode.com/problems/binary-tree-level-order-traversal/
+6    https://leetcode.com/problems/average-of-levels-in-binary-tree/
+7    https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/
+8    https://www.geeksforgeeks.org/count-bst-nodes-that-are-in-a-given-range/
+9    https://leetcode.com/problems/binary-search-tree-to-greater-sum-tree/
+10    https://leetcode.com/problems/binary-tree-cameras/
+11    https://leetcode.com/problems/binary-tree-maximum-path-sum/
+12    https://practice.geeksforgeeks.org/problems/binary-tree-to-bst/1
+13    https://leetcode.com/problems/binary-tree-right-side-view/
+14    https://practice.geeksforgeeks.org/problems/left-view-of-binary-tree/1
+15    https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/
+16    https://www.geeksforgeeks.org/print-nodes-in-the-top-view-of-binary-tree-set-3/
+17    https://practice.geeksforgeeks.org/problems/bottom-view-of-binary-tree/1
+18    https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+19    https://practice.geeksforgeeks.org/problems/leftmost-and-rightmost-nodes-of-binary-tree/1
+20    https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+21    https://leetcode.com/problems/binary-tree-tilt/
+22    https://www.geeksforgeeks.org/print-nodes-dont-sibling-binary-tree/
+23    https://leetcode.com/problems/house-robber-iii/
+24    https://leetcode.com/problems/boundary-of-binary-tree/
+
+    Binary search tree
+    
+1    https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+2    https://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1
+3    https://www.spoj.com/problems/RMQSQ/
+4    https://leetcode.com/problems/delete-node-in-a-bst/
+5    https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+6    https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
+7    https://www.geeksforgeeks.org/construct-a-binary-search-tree-from-given-postorder/
+8    https://www.geeksforgeeks.org/construct-tree-inorder-level-order-traversals/
+9    https://leetcode.com/problems/serialize-and-deserialize-binary-tree/
+10    https://leetcode.com/problems/distribute-coins-in-binary-tree/
+11    https://leetcode.com/problems/find-duplicate-subtrees/
+
+    Mixed from tree (General tree, AVL,BST)
+
+1    https://www.geeksforgeeks.org/avl-tree-set-1-insertion/
+2    https://practice.geeksforgeeks.org/problems/image-multiplication/0
+3    https://leetcode.com/problems/binary-tree-longest-consecutive-sequence/
+4    https://www.geeksforgeeks.org/diameter-tree-using-dfs/
+5    https://www.geeksforgeeks.org/kth-smallest-element-in-bst-using-o1-extra-space/
+6    https://www.geeksforgeeks.org/clone-binary-tree-random-pointers/
+7    https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
+8    https://www.geeksforgeeks.org/convert-a-binary-tree-to-a-circular-doubly-link-list/
+9    https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/
+10    https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/
+11    https://www.geeksforgeeks.org/count-of-pairs-violating-bst-property/
+12    https://leetcode.com/problems/flip-binary-tree-to-match-preorder-traversal/
+13    https://leetcode.com/problems/inorder-successor-in-bst/
+14    https://leetcode.com/problems/rabbits-in-forest/
+
+    Arrays & strings ( STL )
+    
+1    https://leetcode.com/problems/array-of-doubled-pairs/
+2    https://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/
+3    https://www.geeksforgeeks.org/maximum-consecutive-ones-or-zeros-in-a-binary-array/
+4    https://leetcode.com/problems/subarray-sum-equals-k/
+5    https://www.geeksforgeeks.org/count-sub-arrays-sum-divisible-k/
+6    https://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/
+7    https://www.geeksforgeeks.org/count-subarrays-equal-number-1s-0s/
+8    https://www.geeksforgeeks.org/substring-equal-number-0-1-2/
+9    https://www.geeksforgeeks.org/check-if-frequency-of-all-characters-can-become-same-by-one-removal/
+10    https://leetcode.com/problems/k-closest-points-to-origin/
+11    https://www.geeksforgeeks.org/check-anagram-string-palindrome-not/
+12    https://leetcode.com/problems/minimum-number-of-refueling-stops/
+13    https://leetcode.com/problems/find-all-anagrams-in-a-string/
+14    https://www.geeksforgeeks.org/check-two-strings-k-anagrams-not/
+15    https://www.geeksforgeeks.org/find-smallest-number-whose-digits-multiply-given-number-n/
+16    https://leetcode.com/problems/group-anagrams/
+17    https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+18    https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/
+19    https://www.geeksforgeeks.org/check-whether-arithmetic-progression-can-formed-given-array/
+20    https://www.geeksforgeeks.org/count-pairs-in-array-whose-sum-is-divisible-by-k/
+21    https://www.geeksforgeeks.org/smallest-subarray-with-all-occurrences-of-a-most-frequent-element/
+22    https://practice.geeksforgeeks.org/problems/morning-assembly/0
+23    https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/
+24    https://leetcode.com/problems/k-th-smallest-prime-fraction/
+25    https://leetcode.com/problems/max-points-on-a-line/
+26    https://leetcode.com/problems/brick-wall/
+27    https://practice.geeksforgeeks.org/problems/array-pair-sum-divisibility-problem/0
+28    https://practice.geeksforgeeks.org/problems/a-simple-fraction/0
+29    https://leetcode.com/problems/grid-illumination/
+30    https://leetcode.com/problems/insert-delete-getrandom-o1/
+31    https://www.geeksforgeeks.org/count-substrings-binary-string-containing-k-ones/
+32    https://practice.geeksforgeeks.org/problems/incomplete-array/0
+33    https://leetcode.com/problems/long-pressed-name
+34    https://leetcode.com/problems/range-addition
+35    https://www.codechef.com/COOK103B/problems/MAXREMOV
+36    https://leetcode.com/problems/magic-squares-in-grid
+37    https://leetcode.com/problems/next-greater-element-iii
+38    https://leetcode.com/problems/orderly-queue
+39    https://leetcode.com/problems/maximum-subarray/
+40    https://www.codechef.com/JAN18/problems/KCON
+41    https://leetcode.com/problems/rotate-array
+42    https://leetcode.com/problems/remove-duplicates-from-sorted-array
+43    https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards/
+44    https://practice.geeksforgeeks.org/problems/merge-k-sorted-arrays/1
+45    https://leetcode.com/problems/grid-illumination/
+46    https://www.geeksforgeeks.org/k-th-smallest-element-removing-integers-natural-numbers/
+47    https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/
+48    https://leetcode.com/problems/longest-consecutive-sequence/
+49    https://www.geeksforgeeks.org/length-largest-subarray-contiguous-elements-set-2/
+50    https://www.geeksforgeeks.org/length-largest-subarray-contiguous-elements-set-2/
+51    https://leetcode.com/problems/find-anagram-mappings/
+52    https://leetcode.com/problems/employee-free-time/
+53    https://leetcode.com/problems/line-reflection/
+
+    Heap
+    
+1    https://www.geeksforgeeks.org/binary-heap/
+2    https://www.geeksforgeeks.org/building-heap-from-array/
+3    https://leetcode.com/problems/island-perimeter/
+4    https://leetcode.com/problems/the-skyline-problem/
+5    https://practice.geeksforgeeks.org/problems/pairs-of-non-coinciding-points/0
+6    https://leetcode.com/problems/trapping-rain-water/
+7    https://leetcode.com/problems/trapping-rain-water-ii
+8    https://www.geeksforgeeks.org/nearly-sorted-algorithm/
+9    https://leetcode.com/problems/bulb-switcher/
+10    https://leetcode.com/problems/maximum-frequency-stack/
+11    https://leetcode.com/problems/sliding-window-maximum/
+12    https://leetcode.com/problems/swim-in-rising-water/
+13    https://www.geeksforgeeks.org/heap-sort/
+14    https://leetcode.com/problems/product-of-array-except-self
+15    https://leetcode.com/problems/k-empty-slots/
+
+    mathematics
+    
+1    https://www.geeksforgeeks.org/sieve-of-eratosthenes/
+2    https://www.spoj.com/problems/PRIME1/cstart=10
+3    https://leetcode.com/problems/squares-of-a-sorted-array
+4    https://leetcode.com/problems/fibonacci-number
+5    https://leetcode.com/problems/container-with-most-water
+
+    Searching & Sorting
+    
+1    https://www.geeksforgeeks.org/segregate-0s-and-1s-in-an-array-by-traversing-array-once/
+2    https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/
+3    https://leetcode.com/problems/sort-array-by-parity
+4    https://www.geeksforgeeks.org/find-the-number-of-jumps-to-reach-x-in-the-number-line-from-zero/
+5    https://leetcode.com/problems/max-chunks-to-make-sorted/
+6    https://leetcode.com/problems/max-chunks-to-make-sorted-ii
+7    https://www.geeksforgeeks.org/given-an-array-a-and-a-number-x-check-for-pair-in-a-with-sum-as-x/
+8    https://www.geeksforgeeks.org/find-a-pair-with-the-given-difference/
+9    https://www.geeksforgeeks.org/longest-prefix-also-suffix/
+10    https://leetcode.com/problems/shortest-palindrome
+11    https://leetcode.com/problems/boats-to-save-people
+12    https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+13    https://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/
+14    https://leetcode.com/problems/optimal-division
+15    https://leetcode.com/problems/max-consecutive-ones-ii
+16    https://leetcode.com/problems/max-consecutive-ones-iii/
+17    https://leetcode.com/problems/majority-element/
+18    https://leetcode.com/problems/majority-element-ii/
+19    http://geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
+20    http://geeksforgeeks.org/given-an-array-of-of-size-n-finds-all-the-elements-that-appear-more-than-nk-times/
+21    https://leetcode.com/problems/first-missing-positive/
+22    https://leetcode.com/problems/push-dominoes/
+23    https://leetcode.com/problems/moving-stones-until-consecutive-ii/
+24    https://leetcode.com/problems/maximum-product-of-three-numbers/
+25    https://leetcode.com/problems/largest-number-at-least-twice-of-others/
+26    https://leetcode.com/problems/maximum-product-subarray/
+27    https://leetcode.com/problems/rotate-image/
+28    https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/
+29    https://leetcode.com/problems/partition-labels/
+30    https://leetcode.com/problems/partition-labels/
+31    https://leetcode.com/problems/partition-array-into-disjoint-intervals/
+32    https://leetcode.com/problems/valid-palindrome-ii/
+33    https://leetcode.com/problems/consecutive-numbers-sum/
+34    https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+35    https://leetcode.com/problems/multiply-strings/
+36    https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists/
+37    https://leetcode.com/problems/pascals-triangle-ii/
+38    https://leetcode.com/problems/maximum-sum-of-two-non-overlapping-subarrays/
+39    https://leetcode.com/problems/maximize-distance-to-closest-person/
+40    https://leetcode.com/problems/subarrays-with-k-different-integers/
+41    https://www.codechef.com/problems/IOC
+42    https://leetcode.com/problems/search-in-rotated-sorted-array/
+43    https://leetcode.com/problems/split-array-largest-sum/
+44    https://www.geeksforgeeks.org/counting-sort/
+45    https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/
+46    https://www.geeksforgeeks.org/insertion-sort/
+47    https://leetcode.com/problems/koko-eating-bananas/
+48    https://leetcode.com/problems/median-of-two-sorted-arrays/
+49    https://www.geeksforgeeks.org/merge-sort/
+50    https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold/
+51    https://leetcode.com/problems/wiggle-sort/
+52    https://leetcode.com/problems/best-meeting-point/
+
+    Graph
+    
+1    https://practice.geeksforgeeks.org/problems/bfs-traversal-of-graph/1
+2    https://leetcode.com/problems/is-graph-bipartite/
+3    https://practice.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1
+4    https://www.geeksforgeeks.org/detect-cycle-undirected-graph/
+5    https://www.spoj.com/problems/MST/
+6    https://www.geeksforgeeks.org/dijkstras-shortest-path-algorithm-greedy-algo-7/
+7    https://www.codechef.com/problems/REVERSE
+8    https://leetcode.com/problems/bus-routes/
+9    https://leetcode.com/problems/evaluate-division/
+10    https://www.geeksforgeeks.org/topological-sorting/
+11    https://www.geeksforgeeks.org/topological-sorting-indegree-based-solution/
+12    https://leetcode.com/problems/course-schedule-ii/
+13    https://practice.geeksforgeeks.org/problems/strongly-connected-components-kosarajus-algo/1
+14    https://practice.geeksforgeeks.org/problems/mother-vertex/1
+15    https://leetcode.com/problems/rotting-oranges
+16    https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
+17    https://leetcode.com/problems/number-of-islands
+18    https://leetcode.com/problems/number-of-enclaves
+19    https://leetcode.com/problems/most-stones-removed-with-same-row-or-column
+20    https://leetcode.com/problems/regions-cut-by-slashes
+21    https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+22    https://www.geeksforgeeks.org/articulation-points-or-cut-vertices-in-a-graph/
+23    https://practice.geeksforgeeks.org/problems/doctor-strange/0
+24    https://leetcode.com/problems/satisfiability-of-equality-equations
+25    https://leetcode.com/problems/01-matrix/
+26    https://leetcode.com/problems/word-ladder
+27    https://www.geeksforgeeks.org/job-sequencing-problem/
+28    https://practice.geeksforgeeks.org/problems/eulerian-path-in-an-undirected-graph/0
+29    https://practice.geeksforgeeks.org/problems/euler-circuit-in-a-directed-graph/1
+30    https://practice.geeksforgeeks.org/problems/castle-run/0
+31    https://leetcode.com/problems/sentence-similarity-ii
+32    https://leetcode.com/problems/number-of-distinct-islands
+33    https://leetcode.com/problems/number-of-islands-ii
+34    https://leetcode.com/problems/parallel-courses/
+35    https://leetcode.com/problems/optimize-water-distribution-in-a-village/
+36    https://leetcode.com/problems/connecting-cities-with-minimum-cost/
+
+    Dynamic programming
+    
+1    https://leetcode.com/problems/climbing-stairs/
+2    https://leetcode.com/problems/climbing-stairs/
+3    https://leetcode.com/problems/jump-game-ii/
+4    https://leetcode.com/problems/minimum-path-sum/
+5    https://www.geeksforgeeks.org/maximum-size-sub-matrix-with-all-1s-in-a-binary-matrix/
+6    https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+7    https://www.geeksforgeeks.org/fractional-knapsack-problem/
+8    https://leetcode.com/problems/longest-increasing-subsequence/
+9    https://leetcode.com/problems/longest-increasing-subsequence/
+10    https://www.geeksforgeeks.org/minimum-number-of-increasing-subsequences/
+11    https://www.geeksforgeeks.org/dynamic-programming-building-bridges/
+12    https://www.geeksforgeeks.org/box-stacking-problem-dp-22/
+13    https://www.geeksforgeeks.org/maximum-sum-alternating-subsequence-sum/
+14    https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+15    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+16    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/
+17    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/
+18    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
+19    https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+20    https://www.geeksforgeeks.org/ugly-numbers/
+21    https://www.geeksforgeeks.org/super-ugly-number-number-whose-prime-factors-given-set/
+22    https://leetcode.com/problems/domino-and-tromino-tiling/
+23    https://www.geeksforgeeks.org/wildcard-pattern-matching/
+24    https://leetcode.com/problems/regular-expression-matching/
+25    https://www.geeksforgeeks.org/count-palindromic-subsequence-given-string/
+26    https://leetcode.com/problems/regular-expression-matching/
+27    https://www.geeksforgeeks.org/count-palindromic-subsequence-given-string/
+28    https://leetcode.com/problems/count-different-palindromic-subsequences/
+29    https://www.geeksforgeeks.org/count-number-binary-strings-without-consecutive-1s/
+30    https://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/
+31    https://leetcode.com/problems/pizza-with-3n-slices/
+32    https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/
+33    https://www.geeksforgeeks.org/edit-distance-dp-5/
+34    https://leetcode.com/problems/frog-jump/
+35    https://www.geeksforgeeks.org/friends-pairing-problem/
+36    https://www.geeksforgeeks.org/count-number-of-ways-to-partition-a-set-into-k-subsets/
+37    https://www.geeksforgeeks.org/optimal-strategy-for-a-game-dp-31/
+38    https://www.geeksforgeeks.org/probability-knight-remain-chessboard/
+39    https://www.geeksforgeeks.org/temple-offerings/
+40    https://www.geeksforgeeks.org/highway-billboard-problem/
+41    https://www.geeksforgeeks.org/number-subsequences-form-ai-bj-ck/
+42    https://www.geeksforgeeks.org/boolean-parenthesization-problem-dp-37/
+43    https://www.geeksforgeeks.org/minimum-maximum-values-expression/
+44    https://www.geeksforgeeks.org/optimal-binary-search-tree-dp-24/
+45    https://www.geeksforgeeks.org/find-water-in-a-glass/
+46    https://leetcode.com/problems/cherry-pickup/
+47    https://leetcode.com/problems/arithmetic-slices/
+48    https://leetcode.com/problems/arithmetic-slices-ii-subsequence/
+49    https://www.geeksforgeeks.org/largest-sum-subarray-least-k-numbers/
+50    https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/
+51    https://www.geeksforgeeks.org/remove-minimum-elements-either-side-2min-max/
+52    https://leetcode.com/problems/scramble-string/
+53    https://leetcode.com/problems/minimum-score-triangulation-of-polygon/
+54    https://leetcode.com/problems/2-keys-keyboard/
+55    https://leetcode.com/articles/4-keys-keyboard/
+56    https://www.geeksforgeeks.org/mobile-numeric-keypad-problem/
+57    https://leetcode.com/problems/word-break/
+58    https://leetcode.com/problems/burst-balloons/
+59    https://evelynn.gitbooks.io/google-interview/encode-string-with-shortest-length.html
+60    https://www.geeksforgeeks.org/longest-repeating-subsequence/
+61    https://www.geeksforgeeks.org/find-if-string-is-k-palindrome-or-not/
+62    https://www.geeksforgeeks.org/count-distinct-subsequences/
+63    https://www.geeksforgeeks.org/shortest-uncommon-subsequence/
+64    https://www.geeksforgeeks.org/minimal-moves-form-string-adding-characters-appending-string/
+65    https://leetcode.com/problems/paint-fence/
+66    https://leetcode.com/problems/paint-house/
+67    https://leetcode.com/problems/paint-house-ii/
+
+    BFS/DFS
+    
+1    https://leetcode.com/problems/sliding-puzzle
+2    https://practice.geeksforgeeks.org/problems/find-the-maximum-flow/0
+3    https://practice.geeksforgeeks.org/problems/maximum-bipartite-matching/1
+4    https://leetcode.com/problems/reconstruct-itinerary
+5    https://leetcode.com/problems/redundant-connection
+6    https://leetcode.com/problems/redundant-connection-ii/
+7    https://leetcode.com/problems/possible-bipartition
+8    https://leetcode.com/problems/possible-bipartition
+9    https://www.hackerrank.com/challenges/journey-to-the-moon/problem
+10    https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies/
+11    https://leetcode.com/problems/as-far-from-land-as-possible/
+12    https://leetcode.com/problems/k-similar-strings
+13    https://leetcode.com/problems/similar-string-groups
+14    https://leetcode.com/problems/coloring-a-border
+15    https://leetcode.com/problems/shortest-bridge/
+16    https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/
+17    https://leetcode.com/problems/walls-and-gates/
+18    https://leetcode.com/problems/the-maze-ii/
+
+    Text processing
+    
+1    https://www.spoj.com/problems/NAJPF/
+2    https://www.spoj.com/problems/FINDSR/
+3    https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/
+4    https://www.codechef.com/COOK103B/problems/SECPASS
+5    https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-1/
+
+    Number theory
+    
+1    https://www.codechef.com/problems/FLOW016
+2    https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1045
+3    https://www.spoj.com/problems/CEQU/
+4    https://www.spoj.com/problems/ETF/
+5    https://www.geeksforgeeks.org/fermats-little-theorem/
+6    https://www.codechef.com/JULY18A/problems/NMNMX
+7    https://www.spoj.com/problems/DCEPC11B/
+8    https://www.spoj.com/problems/POLYMUL/
+
+    Geometry
+    
+1    https://leetcode.com/problems/erect-the-fence/
+
+    Game Theory
+    
+1    https://www.geeksforgeeks.org/puzzle-20-5-pirates-and-100-gold-coins/
+2    https://www.geeksforgeeks.org/combinatorial-game-theory-set-2-game-nim/
+3    https://www.codechef.com/SNCKPE19/problems/BUDDYNIM
+
+
+
