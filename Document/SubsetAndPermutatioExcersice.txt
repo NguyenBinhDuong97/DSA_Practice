@@ -1,0 +1,25 @@
+Danh sách các bài tập LeetCode về chủ đề hoán vị (permutation) và tập con (subset) được sắp xếp từ dễ đến khó:
+## Cấp độ Dễ (Easy)
+
+* [Subsets (Bài 78)](https://leetcode.com/problems/subsets/): Tìm tất cả các tập con có thể có của một mảng các số nguyên không trùng lặp. Đây là bài nền tảng cho phương pháp quay lui (backtracking).
+
+## Cấp độ Trung bình (Medium)
+
+* [Subsets II (Bài 90)](https://leetcode.com/problems/subsets-ii/): Tìm tập con khi mảng đầu vào chứa các phần tử trùng lặp, yêu cầu lọc bỏ các tập con bị trùng kết quả.
+* [Permutations (Bài 46)](https://leetcode.com/problems/permutations/): Tìm tất cả các hoán vị có thể của một mảng các số nguyên phân biệt.
+* [Permutations II (Bài 47)](https://leetcode.com/problems/permutations-ii/): Tìm các hoán vị khi mảng chứa các số trùng lặp, cần xử lý tránh sinh trùng lặp hoán vị.
+* [Combination Sum (Bài 39)](https://leetcode.com/problems/combination-sum/): Tìm các tổ hợp có tổng bằng một số cho trước (cho phép dùng một số nhiều lần).
+* [Combination Sum II (Bài 40)](https://leetcode.com/problems/combination-sum-ii/): Tìm tổ hợp có tổng bằng số cho trước với phần tử trùng lặp (mỗi phần tử chỉ dùng một lần).
+
+## Cấp độ Khó (Hard)
+
+* [Permutation Sequence (Bài 60)](https://leetcode.com/problems/permutation-sequence/): Tìm hoán vị thứ $k$ trong tổng số $n!$ hoán vị của chuỗi từ $1$ đến $n$ mà không cần sinh ra toàn bộ các hoán vị (dùng toán học kết hợp tổ hợp).
+* [Sudoku Solver (Bài 37)](https://leetcode.com/problems/sudoku-solver/): Bài toán điển hình áp dụng tư duy quay lui nâng cao để điền số vào bảng Sudoku hợp lệ.
+
+Nếu bạn muốn, tôi có thể:
+
+* Viết code mẫu bằng Python/C++ cho bài Subsets hoặc Permutations
+* Giải thích chi tiết thuật toán Backtracking áp dụng cho dạng bài này
+
+Hãy cho tôi biết bạn muốn bắt đầu từ đâu nhé!
+
