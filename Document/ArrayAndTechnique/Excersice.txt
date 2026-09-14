@@ -1,0 +1,167 @@
+Nếu bạn đã học xong các bài Queue, Stack, Backtracking, Permutation thì bước tiếp theo rất hợp lý là luyện Array + Advanced Searching. Đây là nhóm xuất hiện cực nhiều trong phỏng vấn và contest.
+
+Tôi chia theo từng pattern để bạn học có hệ thống.
+==================================================
+Nhóm 1: Binary Search cơ bản trên mảng đã sort
+Mục tiêu:
+
+Tìm vị trí
+Tìm phần tử đầu tiên/cuối cùng
+Lower Bound / Upper Bound
+Dễ
+Binary Search
+Search Insert Position
+First Bad Version
+Guess Number Higher or Lower
+Trung bình
+Find First and Last Position of Element in Sorted Array
+Search in Rotated Sorted Array
+Search in Rotated Sorted Array II
+Find Peak Element
+===================================================
+Nhóm 2: Binary Search on Answer
+Đây là kỹ thuật cực kỳ quan trọng.
+
+Không tìm phần tử.
+
+Mà tìm đáp án.
+
+ 
+Đáp án nằm trong khoảng [L, R]
+
+Chọn mid
+
+Nếu mid khả thi:
+
+thử nhỏ hơn
+
+Nếu mid không khả thi:
+
+tăng lên
+
+
+
+Cơ bản
+Koko Eating Bananas
+Find the Smallest Divisor Given a Threshold
+Maximum Candies Allocated to K Children
+
+Trung bình
+Capacity To Ship Packages Within D Days
+Magnetic Force Between Two Balls
+Minimum Number of Days to Make m Bouquets
+
+Khó
+Split Array Largest Sum
+Divide Chocolate
+
+==================================================
+Nhóm 3: Two Pointers
+Từ brute force O(n²) → O(n)
+
+Dễ
+Remove Duplicates from Sorted Array
+Remove Element
+Move Zeroes
+Reverse String
+
+Trung bình
+Two Sum II
+Container With Most Water
+3Sum
+3Sum Closest
+4Sum
+
+===================================================
+Nhóm 4: Sliding Window
+Pattern rất hay gặp.
+
+ 
+Duy trì đoạn [l, r]
+
+Mở rộng r
+
+Thu hẹp l khi cần
+
+
+
+Cơ bản
+Maximum Average Subarray I
+Maximum Number of Vowels in a Substring
+Trung bình
+Minimum Size Subarray Sum
+Longest Substring Without Repeating Characters
+Max Consecutive Ones III
+Longest Subarray of 1's After Deleting One Element
+Khó hơn
+Minimum Window Substring
+Longest Repeating Character Replacement
+
+===================================================
+Nhóm 5: Prefix Sum
+Cực kỳ hữu ích để tối ưu truy vấn.
+
+Dễ
+Range Sum Query
+Running Sum of 1d Array
+Trung bình
+Subarray Sum Equals K
+Continuous Subarray Sum
+Subarray Sums Divisible by K
+Khó
+Binary Subarrays With Sum
+Number of Submatrices That Sum to Target
+
+====================================================
+Nhóm 6: Monotonic Array Thinking
+Tiền đề cho Stack.
+
+Trung bình
+Shortest Unsorted Continuous Subarray
+Longest Mountain in Array
+Valid Mountain Array
+=====================================================
+Nhóm 7: Sorting + Searching
+Sau khi sort mới xử lý.
+
+Trung bình
+Group Anagrams
+Merge Intervals
+Insert Interval
+Non-overlapping Intervals
+Khó
+Minimum Number of Arrows to Burst Balloons
+Longest Consecutive Sequence
+
+====================================================
+Nhóm 8: Hashing + Searching
+Pattern cực kỳ phổ biến.
+
+Dễ
+Two Sum
+Contains Duplicate
+Intersection of Two Arrays
+Trung bình
+Longest Consecutive Sequence
+Subarray Sum Equals K
+4Sum II
+
+===================================================
+Nhóm 9: Coordinate Compression
+Thường xuất hiện ở contest.
+
+Bài nên làm
+Count Distinct Numbers
+Range Frequency Queries
+Falling Squares (LeetCode 699)
+Skyline Problem
+
+===================================================
+Nhóm 10: Tìm kiếm trên ma trận
+Array 2D + Binary Search
+
+Dễ
+Search a 2D Matrix
+Trung bình
+Search a 2D Matrix II
+Kth Smallest Element in a Sorted Matrix

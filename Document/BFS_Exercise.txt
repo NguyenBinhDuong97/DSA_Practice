@@ -1,0 +1,347 @@
+BFS Roadmap
+Nhóm 1: BFS cơ bản trên Graph
+Mục tiêu:
+
+Hiểu queue dùng như thế nào
+Hiểu khái niệm "lan truyền theo lớp" (level by level)
+Tránh thăm lại đỉnh
+Bài tập
+Easy
+LC 1971. Find if Path Exists in Graph
+LC 1791. Find Center of Star Graph
+Medium
+LC 547. Number of Provinces
+LC 785. Is Graph Bipartite?
+LC 841. Keys and Rooms
+Nhóm 2: BFS tìm đường ngắn nhất trên đồ thị vô hướng
+Đây là chỗ BFS tỏa sáng nhất.
+
+Nếu:
+
+các cạnh đều có trọng số 1
+thì BFS = Shortest Path.
+
+Tư duy
+Thay vì hỏi:
+
+Đi được hay không?
+
+ta hỏi:
+
+Đi được với ít bước nhất là bao nhiêu?
+
+Bài tập
+LC 127. Word Ladder ⭐
+LC 752. Open the Lock ⭐
+LC 909. Snakes and Ladders
+LC 433. Minimum Genetic Mutation
+Nhóm 3: BFS trên Grid
+Đây là nhóm xuất hiện cực nhiều.
+
+Cho ma trận:
+
+ 
+0 1 0
+
+1 1 0
+
+0 0 1
+
+``
+
+
+
+4 hướng:
+
+ 
+dx = {1,-1,0,0};
+
+dy = {0,0,1,-1};
+
+
+
+Bài tập
+Easy
+LC 733. Flood Fill
+Medium
+LC 200. Number of Islands ⭐
+LC 695. Max Area of Island
+LC 994. Rotting Oranges ⭐
+LC 1091. Shortest Path in Binary Matrix ⭐
+LC 1162. As Far from Land as Possible
+Nhóm 4: Multi-source BFS
+Một trong những pattern quan trọng nhất.
+
+Thay vì:
+
+ 
+queue chứa 1 điểm bắt đầu
+
+
+
+ta:
+
+ 
+queue chứa N điểm bắt đầu
+
+
+
+ngay từ đầu.
+
+Ví dụ
+Rotting Oranges
+
+ 
+2 1 1
+
+1 1 0
+
+0 1 1
+
+
+
+Mọi quả cam thối đều được push vào queue ngay từ đầu.
+
+Bài tập
+LC 994. Rotting Oranges ⭐
+LC 542. 01 Matrix ⭐
+LC 286. Walls and Gates
+LC 1765. Map of Highest Peak
+Nhóm 5: BFS theo level
+Nhiều bài không cần shortest path.
+
+Chỉ cần biết đang ở tầng nào.
+
+Ví dụ:
+
+ 
+Level 0
+
+Level 1
+
+Level 2
+
+
+
+Kỹ thuật
+ 
+int sz = q.size();
+
+for(int i=0;i<sz;i++)
+
+{
+
+}
+
+ 
+
+
+
+để xử lý từng tầng.
+
+Bài tập
+LC 102. Binary Tree Level Order Traversal ⭐
+LC 107. Binary Tree Level Order Traversal II
+LC 429. N-ary Tree Level Order Traversal
+LC 199. Binary Tree Right Side View
+Nhóm 6: BFS + State
+Đây là lúc BFS bắt đầu khó.
+
+Một node không chỉ là vị trí.
+
+Nó còn mang trạng thái.
+
+Ví dụ:
+
+ 
+(x, y, keyMask)
+
+
+
+Ví dụ
+Bạn đứng ở:
+
+ 
+(2,3)
+
+
+
+nhưng:
+
+ 
+có chìa khóa A
+
+``
+
+
+
+và
+
+ 
+không có chìa khóa A
+
+ 
+
+
+
+là 2 trạng thái khác nhau.
+
+Bài tập
+LC 847. Shortest Path Visiting All Nodes ⭐
+LC 864. Shortest Path to Get All Keys ⭐⭐⭐
+LC 1293. Shortest Path in a Grid with Obstacles Elimination
+Nhóm 7: BFS + Bitmask
+BFS nâng cao.
+
+State:
+
+ 
+(node, mask)
+
+
+
+Ví dụ:
+
+ 
+mask = 1011
+
+``
+
+
+
+nghĩa là đã thăm:
+
+ 
+0
+
+1
+
+3
+
+
+
+Bài tập
+LC 847. Shortest Path Visiting All Nodes ⭐⭐⭐
+LC 864. Shortest Path to Get All Keys ⭐⭐⭐
+Nhóm 8: Topological BFS (Kahn)
+Nhiều người không nghĩ đây là BFS.
+
+Nhưng queue vẫn chính là queue của BFS.
+
+Ý tưởng
+Đỉnh có:
+
+ 
+indegree = 0
+
+
+
+được đẩy vào queue trước.
+
+Bài tập
+LC 207. Course Schedule ⭐
+LC 210. Course Schedule II ⭐
+LC 802. Find Eventual Safe States
+LC 1136. Parallel Courses
+Nhóm 9: BFS trên cây
+Về bản chất:
+
+ 
+Tree = Graph không chu trình
+
+
+
+nên BFS dùng được.
+
+Bài tập
+LC 637. Average of Levels in Binary Tree
+LC 102. Binary Tree Level Order Traversal
+LC 515. Find Largest Value in Each Tree Row
+Nhóm 10: 0-1 BFS
+Đây là bước chuyển tiếp trước khi học Dijkstra.
+
+Các cạnh chỉ có:
+
+ 
+0
+
+hoặc
+
+1
+
+
+
+Kỹ thuật
+Dùng:
+
+ 
+deque
+
+``
+
+
+
+thay vì
+
+ 
+queue
+
+
+
+Nếu cost:
+
+ 
+0
+
+
+
+push_front.
+
+Nếu cost:
+
+ 
+1
+
+ 
+
+
+
+push_back.
+
+Bài tập
+LC 1368. Minimum Cost to Make at Least One Valid Path ⭐⭐⭐
+LC 2290. Minimum Obstacle Removal to Reach Corner ⭐⭐⭐
+Lộ trình luyện tập mình khuyên cho bạn
+Vì bạn đã khá mạnh về Sliding Window, Prefix Sum, Binary Search rồi nên mình sẽ đi theo thứ tự này:
+
+Giai đoạn 1
+LC 200 Number of Islands
+LC 994 Rotting Oranges
+LC 542 01 Matrix
+LC 1091 Shortest Path in Binary Matrix
+Giai đoạn 2
+LC 127 Word Ladder
+LC 752 Open the Lock
+LC 207 Course Schedule
+LC 210 Course Schedule II
+Giai đoạn 3
+LC 1293 Grid with Obstacles Elimination
+LC 847 Shortest Path Visiting All Nodes
+Giai đoạn 4
+LC 1368 Minimum Cost Path
+LC 2290 Minimum Obstacle Removal
+5 bài quan trọng nhất phải hiểu thật sâu
+Nếu chỉ chọn 5 bài để nắm được gần như toàn bộ BFS trên LeetCode:
+
+LC 200 Number of Islands
+LC 994 Rotting Oranges
+LC 542 01 Matrix
+LC 127 Word Ladder
+LC 207 Course Schedule
+Hiểu cực kỹ 5 bài này thì khoảng 70-80% bài BFS phổ biến sẽ nhìn ra pattern khá nhanh.
+
+Đặc biệt với phong cách học của bạn, mình khuyên bắt đầu từ LC 994 Rotting Oranges, vì bài này giúp nhìn ra bản chất quan trọng nhất của BFS:
+
+BFS không phải là "duyệt đồ thị", mà là mô phỏng một quá trình lan truyền theo thời gian.
+
+Đó là trực giác nền tảng để sau này thấy ngay Multi-source BFS, Shortest Path và BFS theo level.
