@@ -1,0 +1,435 @@
+Thứ cần học là các pattern sinh ra từ DFS.
+
+
+Bức tranh tổng thể
+
+Mình chia DFS thành 7 pattern lớn:
+
+DFS Traversal
+
+↓
+DFS trên Grid
+
+↓
+DFS Backtracking
+
+↓
+DFS + Memoization
+
+↓
+Cycle Detection
+
+↓
+Topological Sort
+
+↓
+Tree DFS
+
+
+Nếu học hết 7 pattern này thì khoảng 90% bài DFS trên LeetCode sẽ rơi vào đó.
+
+==========================================================
+
+Pattern 1: DFS Traversal cơ bản
+Khi nào nhận ra?
+
+Đề yêu cầu:
+
+thăm tất cả node
+
+hoặc
+
+đếm số thành phần liên thông
+
+
+Template:
+
+void dfs(int u)
+{
+    visited[u] = true;
+
+    for(auto v : graph[u])
+    {
+        if(!visited[v])
+            dfs(v);
+    }
+}
+
+Bài phải làm
+547. Number of Provinces
+
+Bài nhập môn DFS kinh điển.
+
+Học:
+
+Connected Component
+
+841. Keys and Rooms
+
+DFS đơn giản.
+
+Học:
+
+visited
+
+1466. Reorder Routes to Make All Paths Lead to Zero
+
+DFS trên graph nhưng có thêm logic.
+
+=============================================
+Pattern 2: DFS trên Grid
+
+Đây là BFS mà đổi queue thành DFS.
+
+Nhận diện
+
+Có:
+
+ma trận
+
+4 hướng
+
+8 hướng
+
+Template
+dfs(r,c)
+
+
+thay vì
+
+dfs(node)
+
+Bài phải làm
+200. Number of Islands ⭐⭐⭐⭐⭐
+
+Bài số 1 phải làm.
+
+695. Max Area of Island
+
+Học:
+
+DFS trả về kết quả
+
+1020. Number of Enclaves
+
+Học:
+
+DFS từ boundary
+
+1254. Number of Closed Islands
+
+Biến thể cực hay.
+
+Sau nhóm này bạn phải nhận ra:
+
+Grid
++
+4 hướng
+
+=> BFS hoặc DFS
+
+============================================
+Pattern 3: DFS Backtracking
+
+Đây là nhánh cực lớn.
+
+Bạn từng học permutation rồi.
+
+Thực chất đó là DFS.
+
+Nhận diện
+
+Đề yêu cầu:
+
+liệt kê
+
+tạo ra
+
+tất cả khả năng
+
+
+Ví dụ:
+
+Generate all ...
+Find every ...
+List all ...
+
+
+Template:
+
+dfs(state)
+{
+    lựa chọn
+
+    dfs(nextState)
+
+    hoàn tác
+}
+
+
+Chính là:
+
+choose
+
+explore
+
+undo
+
+Bài phải làm
+46. Permutations ⭐⭐⭐⭐⭐
+
+Bài nhập môn.
+
+78. Subsets ⭐⭐⭐⭐⭐
+
+Backtracking cơ bản nhất.
+
+77. Combinations
+39. Combination Sum
+
+Backtracking + pruning.
+
+40. Combination Sum II
+
+Xử lý duplicate.
+
+131. Palindrome Partitioning
+
+Cực đáng làm.
+
+Sau nhóm này bạn sẽ hiểu:
+
+DFS không phải chỉ graph.
+
+=======================================================
+
+Pattern 4: DFS + Memoization
+
+Đây là nơi DFS bắt đầu mạnh.
+
+Nhận diện
+
+Đề hỏi:
+
+số cách
+
+đường dài nhất
+
+kết quả tốt nhất
+
+
+có:
+
+overlapping subproblem
+
+
+Template:
+
+int dfs(state)
+{
+    if(dp[state] != -1)
+        return dp[state];
+
+    ...
+}
+
+Bài phải làm
+329. Longest Increasing Path in Matrix ⭐⭐⭐⭐⭐
+
+Bài cực kỳ quan trọng.
+
+2328. Number of Increasing Paths in a Grid
+140. Word Break II
+
+Bạn sẽ bắt đầu hiểu:
+
+DFS + Cache
+=
+Top Down DP
+
+=========================================================
+
+Pattern 5: Cycle Detection
+
+Đây là thứ bạn vừa gặp ở Course Schedule.
+
+Nhận diện
+
+Đề hỏi:
+
+có cycle không ?
+
+
+Hoặc:
+
+dependency
+
+
+Template:
+
+0 = chưa thăm
+
+1 = đang thăm
+
+2 = đã xong
+
+Bài phải làm
+207. Course Schedule ⭐⭐⭐⭐⭐
+
+Must-do.
+
+210. Course Schedule II
+
+Thêm topological order.
+
+802. Find Eventual Safe States
+
+Rất hay.
+
+Sau nhóm này:
+
+Bạn sẽ hiểu tại sao:
+
+visited
+
+
+không đủ để detect cycle.
+
+======================================
+Pattern 6: Topological Sort bằng DFS
+
+Nhiều người chỉ biết Kahn BFS.
+
+Nhưng DFS cũng làm được.
+
+Ý tưởng
+
+DFS xong:
+
+push vào stack
+
+
+Cuối cùng:
+
+reverse
+
+Bài nên làm
+210. Course Schedule II
+2115. Find All Possible Recipes
+1203. Sort Items by Groups Respecting Dependencies
+
+Khá khó.
+
+Sau nhóm này bạn sẽ hiểu:
+
+Topo Sort
+=
+DFS hậu thứ tự (postorder)
+
+============================================
+Pattern 7: Tree DFS
+
+Đây là một vũ trụ riêng.
+
+Nhận diện
+
+Node có:
+
+left
+right
+
+
+hoặc
+
+tree
+
+Nhóm 1
+DFS Traversal
+104 Maximum Depth
+111 Minimum Depth
+100 Same Tree
+
+Nhóm 2
+DFS trả về giá trị
+543 Diameter of Binary Tree ⭐⭐⭐⭐⭐
+Bài cực kỳ quan trọng.
+124 Binary Tree Maximum Path Sum
+Must-do.
+
+Nhóm 3
+DFS + Global Variable
+687 Longest Univalue Path
+1372 Longest ZigZag Path
+
+Nhóm 4
+Tree DP
+337 House Robber III
+1245 Tree Diameter
+
+Đây là bước chuyển sang Tree DP.
+
+====================================
+
+Roadmap mình khuyên bạn
+Giai đoạn 1: DFS cơ bản
+547 Number of Provinces
+841 Keys and Rooms
+
+Giai đoạn 2: Grid DFS
+200 Number of Islands
+695 Max Area of Island
+1020 Number of Enclaves
+
+Giai đoạn 3: Backtracking
+78 Subsets
+77 Combinations
+46 Permutations
+39 Combination Sum
+
+Giai đoạn 4: DFS + Memoization
+329 Longest Increasing Path
+2328 Increasing Paths
+
+Giai đoạn 5: Graph DFS nâng cao
+207 Course Schedule
+210 Course Schedule II
+802 Eventual Safe States
+
+Giai đoạn 6: Tree DFS
+104 Maximum Depth
+543 Diameter of Binary Tree
+124 Binary Tree Maximum Path Sum
+337 House Robber III
+
+==========================================
+Nếu chỉ chọn 5 bài quan trọng nhất của DFS
+
+Mình sẽ chọn:
+
+200  Number of Islands
+46   Permutations
+329  Longest Increasing Path in Matrix
+207  Course Schedule
+543  Diameter of Binary Tree
+
+
+Vì 5 bài này đại diện cho 5 nhánh lớn nhất:
+
+Grid DFS
+Backtracking DFS
+Memo DFS
+Cycle DFS
+Tree DFS
+
+
+Nếu học và hiểu thật sâu 5 bài đó, bạn sẽ có nền tảng rất vững để chuyển sang các chủ đề khó hơn như:
+Tree DP
+Tarjan SCC
+Bridge & Articulation Point
+Euler Tour
+LCA
+Bitmask DFS
+DFS on DAG
+
+
+Đó chính là "cây tiến hóa" của DFS mà dân competitive programming và phỏng vấn thuật toán thường đi theo.
