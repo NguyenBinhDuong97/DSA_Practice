@@ -1,0 +1,406 @@
+Rất hay.
+
+Greedy gần như không có template cố định.
+
+Thứ cần học không phải là code, mà là:
+
+Nhận diện dấu hiệu của lời giải tham lam.
+
+Cây tiến hóa của Greedy
+
+Mình chia Greedy thành 8 pattern lớn:
+
+Greedy Sorting
+
+↓
+Interval Greedy
+
+↓
+Greedy + Heap
+
+↓
+Greedy + Prefix/Suffix
+
+↓
+Greedy + Monotonic Structure
+
+↓
+Greedy + Reachability
+
+↓
+Greedy + Exchange Argument
+
+↓
+Greedy + Advanced
+
+===============================================
+
+Pattern 1: Greedy Sorting
+
+Đây là cửa ngõ nhập môn.
+
+Dấu hiệu
+
+Đề bài:
+
+sắp xếp xong rồi chọn
+
+
+hoặc
+
+muốn tối ưu toàn cục
+=> thử xử lý theo thứ tự đặc biệt
+
+Bài phải làm
+455. Assign Cookies ⭐⭐⭐⭐⭐
+
+Bài nhập môn Greedy.
+
+Ý tưởng:
+
+cookie nhỏ nhất
+ghép cho
+trẻ nhỏ nhất có thể thoả mãn
+
+2410. Maximum Matching of Players With Trainers
+
+Giống Assign Cookies.
+
+948. Bag of Tokens
+
+Bắt đầu thấy:
+
+sort
++
+two pointers
+
+Kỹ năng học được
+
+Nhìn thấy:
+
+sort(...)
+
+
+không phải để tiện xử lý.
+
+Mà chính là bản chất lời giải.
+
+===========================================
+Pattern 2: Interval Greedy
+
+Một trong các pattern quan trọng nhất.
+
+Dấu hiệu
+
+Đề có:
+
+[start, end]
+
+
+hoặc
+
+meeting
+event
+schedule
+balloon
+
+Greedy nổi tiếng
+
+Luôn ưu tiên:
+
+end nhỏ nhất
+
+Bài phải làm
+435. Non-overlapping Intervals ⭐⭐⭐⭐⭐
+
+Must-do.
+
+452. Minimum Number of Arrows to Burst Balloons ⭐⭐⭐⭐⭐
+
+Gần như cùng công thức.
+
+646. Maximum Length of Pair Chain
+1024. Video Stitching
+
+Interval khó hơn.
+
+Kỹ năng học được
+
+Một trong những định lý tham lam kinh điển:
+
+Chọn interval kết thúc sớm nhất
+
+================================================
+
+Pattern 3: Reachability Greedy
+
+Đây là pattern phỏng vấn cực nhiều.
+
+Dấu hiệu
+
+Đề hỏi:
+
+có tới được không
+
+
+hoặc
+
+ít bước nhất
+
+Bài phải làm
+55. Jump Game ⭐⭐⭐⭐⭐
+
+Must-do.
+
+Ý tưởng:
+
+farthest
+
+45. Jump Game II ⭐⭐⭐⭐⭐
+
+Cực kỳ quan trọng.
+
+1326. Minimum Number of Taps
+
+Biến thể interval + jump.
+
+Kỹ năng học được
+
+Tư duy:
+
+Tại vị trí hiện tại
+
+ta có thể đi xa nhất tới đâu?
+
+=============================================
+Pattern 4: Greedy + Heap
+
+Đây là nhóm bạn đã gặp nhiều nhưng chưa chắc nhận ra là Greedy.
+
+Dấu hiệu
+
+Đề hỏi:
+
+liên tục lấy thằng tốt nhất
+
+871. Minimum Number of Refueling Stops ⭐⭐⭐⭐⭐
+
+Must-do.
+
+Ý tưởng:
+
+cứ đi tiếp
+
+khi thiếu xăng
+
+quay lại lấy trạm lớn nhất
+
+1353. Maximum Number of Events That Can Be Attended
+502. IPO ⭐⭐⭐⭐⭐
+
+Rất nổi tiếng.
+
+Kỹ năng học được
+
+Greedy:
+
+Luôn chọn ứng viên tốt nhất hiện tại
+
+
+Heap chỉ là công cụ.
+
+=====================================================
+Pattern 5: Greedy trên chuỗi
+Dấu hiệu
+xoá ký tự
+
+biến đổi chuỗi
+
+tạo số lớn nhất
+
+316. Remove Duplicate Letters ⭐⭐⭐⭐⭐
+
+Must-do.
+
+Ý tưởng:
+
+ký tự lớn hơn
+và còn xuất hiện sau
+
+=> bỏ
+
+1081. Smallest Subsequence of Distinct Characters
+
+Gần như cùng bài.
+
+402. Remove K Digits ⭐⭐⭐⭐⭐
+
+Rất nổi tiếng.
+
+Kỹ năng học được
+
+Greedy + Stack.
+
+==============================================
+
+Pattern 6: Chứng minh Exchange Argument
+
+Đây là lúc Greedy thực sự bắt đầu.
+
+Dấu hiệu
+
+Đề bài:
+
+tìm tối ưu lớn nhất / nhỏ nhất
+
+nhưng không thấy DP
+
+
+Ta phải chứng minh:
+
+nếu đáp án tối ưu không chọn A
+
+ta có thể đổi sang A
+
+mà không làm xấu đáp án
+
+
+Đó gọi là:
+
+Exchange Argument
+Bài phải làm
+121. Best Time to Buy and Sell Stock
+122. Best Time to Buy and Sell Stock II
+134. Gas Station ⭐⭐⭐⭐⭐
+
+Bài kinh điển.
+
+406. Queue Reconstruction by Height ⭐⭐⭐⭐⭐
+
+Rất đáng học.
+
+=================================================
+Pattern 7: Greedy + Monotonic Stack
+
+Đây là nhóm rất hay xuất hiện.
+
+Bài phải làm
+402. Remove K Digits
+1673. Find the Most Competitive Subsequence
+321. Create Maximum Number
+
+Khá khó.
+
+Tư duy
+Gặp phần tử tốt hơn
+
+=> loại bỏ phần tử cũ
+
+=============================================
+
+Pattern 8: Greedy nâng cao
+
+Đây là nhóm hard.
+
+630. Course Schedule III ⭐⭐⭐⭐⭐
+
+Must-do.
+
+Greedy +
+
+priority_queue
+
+857. Minimum Cost to Hire K Workers ⭐⭐⭐⭐⭐
+
+Kinh điển.
+
+1383. Maximum Performance of a Team
+
+Cùng pattern.
+
+1402. Reducing Dishes
+
+Greedy rất đẹp.
+
+
+============================================
+Roadmap luyện tập
+Giai đoạn 1: Nhập môn
+455 Assign Cookies
+2410 Match Players and Trainers
+948 Bag of Tokens
+
+Giai đoạn 2: Interval
+435 Non-overlapping Intervals
+452 Minimum Arrows
+646 Pair Chain
+
+Giai đoạn 3: Reachability
+55 Jump Game
+45 Jump Game II
+1326 Minimum Number of Taps
+
+Giai đoạn 4: Heap Greedy
+871 Refueling Stops
+502 IPO
+1353 Max Events
+
+Giai đoạn 5: String Greedy
+316 Remove Duplicate Letters
+402 Remove K Digits
+
+Giai đoạn 6: Exchange Argument
+134 Gas Station
+406 Queue Reconstruction
+
+Giai đoạn 7: Advanced
+630 Course Schedule III
+857 Hire K Workers
+1383 Team Performance
+
+
+====================================
+Nếu chỉ chọn 5 bài Greedy quan trọng nhất
+
+Mình sẽ chọn:
+
+455  Assign Cookies
+
+435  Non-overlapping Intervals
+
+55   Jump Game
+
+134  Gas Station
+
+630  Course Schedule III
+
+
+vì 5 bài này đại diện cho 5 tư duy tham lam rất khác nhau:
+
+Sort Greedy
+Interval Greedy
+Reachability Greedy
+Exchange Argument
+Heap Greedy
+
+
+Nếu bạn làm và hiểu thật sâu 5 bài trên (đặc biệt là tại sao lựa chọn tham lam là đúng, không chỉ code được), thì khoảng 70-80% bài Greedy medium trên LeetCode sẽ rơi vào một trong các pattern đó.
+
+Riêng theo kinh nghiệm của mình, thứ tự học tối ưu nhất là:
+
+455
+↓
+435
+↓
+55
+↓
+45
+↓
+134
+↓
+871
+↓
+630
+
+
+Sau 7 bài này bạn sẽ bắt đầu "ngửi" được mùi Greedy ngay từ đề bài, giống như hiện tại bạn đã bắt đầu nhận ra mùi BFS hay DFS.
