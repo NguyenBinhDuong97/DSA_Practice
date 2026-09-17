@@ -1,4 +1,6 @@
 BFS Roadmap
+
+================================================
 Nhóm 1: BFS cơ bản trên Graph
 Mục tiêu:
 
@@ -13,6 +15,8 @@ Medium
 LC 547. Number of Provinces
 LC 785. Is Graph Bipartite?
 LC 841. Keys and Rooms
+
+=======================================================
 Nhóm 2: BFS tìm đường ngắn nhất trên đồ thị vô hướng
 Đây là chỗ BFS tỏa sáng nhất.
 
@@ -35,6 +39,9 @@ LC 127. Word Ladder ⭐
 LC 752. Open the Lock ⭐
 LC 909. Snakes and Ladders
 LC 433. Minimum Genetic Mutation
+
+=======================================================
+
 Nhóm 3: BFS trên Grid
 Đây là nhóm xuất hiện cực nhiều.
 
@@ -69,6 +76,10 @@ LC 695. Max Area of Island
 LC 994. Rotting Oranges ⭐
 LC 1091. Shortest Path in Binary Matrix ⭐
 LC 1162. As Far from Land as Possible
+
+
+==============================================
+
 Nhóm 4: Multi-source BFS
 Một trong những pattern quan trọng nhất.
 
@@ -107,6 +118,9 @@ LC 994. Rotting Oranges ⭐
 LC 542. 01 Matrix ⭐
 LC 286. Walls and Gates
 LC 1765. Map of Highest Peak
+
+=====================================================
+
 Nhóm 5: BFS theo level
 Nhiều bài không cần shortest path.
 
@@ -144,6 +158,9 @@ LC 102. Binary Tree Level Order Traversal ⭐
 LC 107. Binary Tree Level Order Traversal II
 LC 429. N-ary Tree Level Order Traversal
 LC 199. Binary Tree Right Side View
+
+=====================================================
+
 Nhóm 6: BFS + State
 Đây là lúc BFS bắt đầu khó.
 
@@ -190,6 +207,9 @@ Bài tập
 LC 847. Shortest Path Visiting All Nodes ⭐
 LC 864. Shortest Path to Get All Keys ⭐⭐⭐
 LC 1293. Shortest Path in a Grid with Obstacles Elimination
+
+============================================================
+
 Nhóm 7: BFS + Bitmask
 BFS nâng cao.
 
@@ -243,6 +263,9 @@ LC 207. Course Schedule ⭐
 LC 210. Course Schedule II ⭐
 LC 802. Find Eventual Safe States
 LC 1136. Parallel Courses
+
+=============================================
+
 Nhóm 9: BFS trên cây
 Về bản chất:
 
@@ -257,6 +280,11 @@ Bài tập
 LC 637. Average of Levels in Binary Tree
 LC 102. Binary Tree Level Order Traversal
 LC 515. Find Largest Value in Each Tree Row
+
+
+
+===============================================
+
 Nhóm 10: 0-1 BFS
 Đây là bước chuyển tiếp trước khi học Dijkstra.
 
@@ -314,22 +342,29 @@ LC 2290. Minimum Obstacle Removal to Reach Corner ⭐⭐⭐
 Lộ trình luyện tập mình khuyên cho bạn
 Vì bạn đã khá mạnh về Sliding Window, Prefix Sum, Binary Search rồi nên mình sẽ đi theo thứ tự này:
 
+==========================================================
+
 Giai đoạn 1
 LC 200 Number of Islands
 LC 994 Rotting Oranges
 LC 542 01 Matrix
 LC 1091 Shortest Path in Binary Matrix
+==================================================================
 Giai đoạn 2
 LC 127 Word Ladder
 LC 752 Open the Lock
 LC 207 Course Schedule
 LC 210 Course Schedule II
+===========================================================
 Giai đoạn 3
 LC 1293 Grid with Obstacles Elimination
 LC 847 Shortest Path Visiting All Nodes
+========================================================
 Giai đoạn 4
 LC 1368 Minimum Cost Path
 LC 2290 Minimum Obstacle Removal
+============================================
+
 5 bài quan trọng nhất phải hiểu thật sâu
 Nếu chỉ chọn 5 bài để nắm được gần như toàn bộ BFS trên LeetCode:
 

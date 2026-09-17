@@ -1,0 +1,384 @@
+
+Luyện theo thứ tự từ dễ → khó
+
+====================================================================
+Pattern 0: BFS giả dạng Dijkstra
+
+Đây là nhóm bài mà nhiều người mới học thường nhầm.
+
+LeetCode 1091
+
+Binary Matrix Shortest Path
+
+Mỗi bước cost = 1
+
+
+=> BFS
+
+Không cần Dijkstra.
+
+LeetCode 994
+
+Rotting Oranges
+
+Mỗi phút lan sang 1 ô
+
+
+=> BFS
+
+LeetCode 542
+
+01 Matrix
+
+=> Multi-source BFS
+
+Mục tiêu:
+
+Học phân biệt:
+
+BFS
+!=
+Dijkstra
+================================================
+Pattern 1: Dijkstra cơ bản
+
+Node chỉ là:
+
+node
+
+
+Distance:
+
+dist[node]
+
+
+Không có state phụ.
+
+743. Network Delay Time ⭐⭐⭐
+
+Bài đầu tiên phải làm.
+
+Cho:
+
+u -> v
+cost = w
+
+
+Tìm thời gian để tín hiệu tới mọi node.
+
+Template Dijkstra gần như nguyên bản.
+
+1976. Number of Ways to Arrive at Destination ⭐⭐⭐
+
+Dijkstra +
+
+ways[node]
+
+
+đếm số đường đi ngắn nhất.
+
+Đây là bài rất đáng làm.
+
+2642. Design Graph With Shortest Path Calculator
+
+Thực hành Dijkstra nhiều lần.
+
+Sau nhóm này bạn cần thuộc:
+
+dist
+pq
+relax
+
+====================================================
+Pattern 2: Grid + Dijkstra
+
+Bạn đã học BFS trên grid.
+
+Bây giờ chỉ khác:
+
+chi phí mỗi bước khác nhau
+
+1631. Path With Minimum Effort ⭐⭐⭐⭐⭐
+
+Bài MUST DO.
+
+Khoảng 70% người học Dijkstra đều gặp bài này.
+
+Node:
+
+(r,c)
+
+
+Distance:
+
+effort
+
+
+Transition:
+
+max(currentEffort, diff)
+
+
+Không phải cộng.
+
+Đây là lần đầu thấy:
+
+Dijkstra không nhất thiết là tổng cost.
+
+778. Swim in Rising Water ⭐⭐⭐⭐⭐
+
+Pattern gần như 1631.
+
+Hai bài này nên giải liên tiếp.
+
+2290. Minimum Obstacle Removal to Reach Corner
+
+Dijkstra hoặc 0-1 BFS.
+
+Bài chuyển tiếp rất hay.
+
+==========================================================
+Pattern 3: Maximize thay vì Minimize
+
+Nhiều người bị mắc ở đây.
+
+1514. Path With Maximum Probability ⭐⭐⭐⭐
+
+Đề hỏi:
+
+max probability
+
+
+không phải
+
+min cost
+
+
+Ta đổi:
+
+maxHeap
+
+
+thay vì
+
+minHeap
+
+
+Distance trở thành:
+
+probability
+
+
+Bài này dạy:
+
+Dijkstra không chỉ dùng cho minimum path.
+
+========================================================
+
+Pattern 4: State Dijkstra
+
+Đây là lúc Dijkstra bắt đầu khó.
+
+Node không còn là:
+
+u
+
+
+nữa.
+
+Mà là:
+
+(u, state)
+
+787. Cheapest Flights Within K Stops ⭐⭐⭐⭐⭐
+
+Node:
+
+(city, stopCount)
+
+
+Sai lầm phổ biến:
+
+dist[city]
+
+
+Đúng:
+
+dist[city][stop]
+
+
+Bài này cực kỳ kinh điển.
+
+1928. Minimum Cost to Reach Destination in Time ⭐⭐⭐⭐⭐
+
+Node:
+
+(city,time)
+
+
+Distance:
+
+cost
+
+
+Lần đầu tiên thấy:
+
+dist[node][time]
+
+
+Nếu hiểu bài này thì 80% State Dijkstra đã xong.
+
+
+================================================================
+Pattern 5: Dijkstra + Bitmask
+
+Đây là level cao.
+
+847. Shortest Path Visiting All Nodes ⭐⭐⭐⭐⭐
+
+Node:
+
+(node, mask)
+
+
+Mask:
+
+node nào đã thăm
+
+
+Tuy nhiên bài này thực tế thường giải BFS hơn.
+
+Nhưng nó là bước đầu rất tốt.
+
+864. Shortest Path To Get All Keys ⭐⭐⭐⭐⭐
+
+Bài kinh điển nhất.
+
+Node:
+
+(r,c,mask)
+
+
+Mask:
+
+keys đang giữ
+
+
+Nếu giải được bài này:
+
+Bitmask BFS
+Bitmask Dijkstra
+
+
+sẽ dễ hơn nhiều.
+
+Pattern 6: K-th Shortest Path
+
+Ít gặp hơn.
+
+2045. Second Minimum Time to Reach Destination
+
+Ta không chỉ lưu:
+
+best
+
+
+mà còn:
+
+secondBest
+
+
+Một node có thể được xử lý nhiều lần.
+
+===============================================
+Pattern 7: Dijkstra + Counting
+
+Ngoài distance còn đếm.
+
+1976. Number of Ways to Arrive at Destination
+
+(đã nói phía trên)
+
+Ngoài ra:
+
+1786. Number of Restricted Paths from First to Last Node
+
+Rất đáng làm.
+
+Dijkstra + DP.
+
+===========================================================
+
+Pattern 8: 0-1 BFS
+
+Pattern này mình thấy cực kỳ quan trọng.
+
+Nhiều công ty hỏi.
+
+Cost chỉ có:
+
+0
+1
+
+
+Thay vì:
+
+priority_queue
+
+
+dùng:
+
+deque
+
+1368. Minimum Cost to Make at Least One Valid Path
+
+Must-do.
+
+2290. Minimum Obstacle Removal to Reach Corner
+
+Dijkstra
+
+↓
+
+0-1 BFS
+
+Rất đáng học.
+
+
+===============================================
+Lộ trình giống như trước đây
+Giai đoạn 1: hiểu Dijkstra
+743 Network Delay Time
+1976 Number of Ways to Arrive at Destination
+Giai đoạn 2: Grid Dijkstra
+1631 Path With Minimum Effort
+778 Swim in Rising Water
+Giai đoạn 3: Biến thể
+1514 Path With Maximum Probability
+2290 Minimum Obstacle Removal
+Giai đoạn 4: State Dijkstra
+787 Cheapest Flights Within K Stops
+1928 Minimum Cost to Reach Destination in Time
+Giai đoạn 5: Bitmask
+847 Shortest Path Visiting All Nodes
+864 Shortest Path to Get All Keys
+Giai đoạn 6: 0-1 BFS
+1368 Minimum Cost to Make Valid Path
+2290 (làm lại bằng 0-1 BFS)
+
+
+================================================
+Nếu chỉ chọn 5 bài quan trọng nhất để hiểu toàn bộ Dijkstra, mình sẽ chọn:
+
+743   (Dijkstra cơ bản)
+
+1631  (Grid Dijkstra)
+
+1514  (Max Probability)
+
+787   (State Dijkstra)
+
+1928  (dist[node][state])
+
+
+Làm xong và hiểu sâu 5 bài này thì gần như mọi bài Dijkstra trên LeetCode đều có thể quy về một trong các pattern trên.
